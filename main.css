@@ -1,0 +1,260 @@
+/* *{
+    margin: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredoka+One&family=Oxygen&display=swap');
+
+
+.background{
+    background-image: url(images/background.png);
+    background: linear-gradient(to top, rgba(85,15,145,0.5)40%, rgba(8, 83, 197, 0.9)70%), url(images/space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:hover { color: white; background: rgb(20, 22, 21); } 
+
+
+/* a :hover, h1:hover, a:hover {
+    background-color: yellow;
+} */
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    justify-items: flex-end;
+    color: rgb(125, 116, 206);
+    font-size: 14px;
+    font-family:'Lucida Sans', sans-serif;
+    padding-left: 20px;
+    float: right;
+    padding-top: 33px;
+}
+
+
+.navbar{
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 2400px;
+    height: 10px;
+    margin: auto;
+}
+
+
+
+.menu{
+    width: 600px;
+    float: center;
+    height: 50px; 
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans',sans-serif;
+} 
+
+li{ list-style: square; }
+
+/* ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 22px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+}  */
+
+*{box-sizing: border-box;
+    padding: 5px;}
+
+        
+h1 {
+    font-family:'Fredoka One', cursive;
+    color: rgb(46, 26, 100);
+    font-size: 70px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+}
+
+h2 {
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(163, 154, 201);
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+h3 {
+    font-family:'Segoe UI', sans-serif;
+    color: rgb(49, 29, 104);
+    font-size: 45px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px
+}
+
+h4 {
+    display: flex;
+    align-items: flex-end;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+#hey {
+    text-align: center;
+    font-size: 70px;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.medium{
+    font-size: 25px;
+    color: rgb(180, 202, 221);
+    font-weight: bold;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.smallish{
+    font-size: 10px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.background-2{
+    background-image: url(images/pollock.jpg);
+    background-blend-mode:exclusion;
+    background-color: rgba(48, 72, 122, 0.1);
+    background: linear-gradient(to top, rgba(146, 119, 168, 0.7), rgba(113, 145, 189, 0.7)), url(images/pollock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background3{
+    background-image: url(gif/snowflake.gif);
+    background-blend-mode:multiply;
+    background-color: rgba(22, 31, 34, 0.9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.background4{
+    background-image: url(gif/blogs-the-feed-americans-digital-art.gif);
+    background: linear-gradient(to top, rgba(198, 165, 226, 0.9)40%, rgba(143, 169, 207, 0.9)60%), url(gif/blogs-the-feed-americans-digital-art.gif);
+    background-blend-mode:screen;
+    background-color: rgba(22, 31, 34, 0.8)50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.purple{
+    color: rgb(67, 19, 112);
+    font-size: 50px;
+}
+
+.lightgrey{
+    color: rgb(180, 202, 221);
+    font-size: 50px;
+}
+
+.lightgreysmall{
+    color: rgb(180, 202, 221);
+    font-size: 30px;
+}
+
+.green{
+    color: rgb(28, 168, 63);
+    font-size: 40px;
+    font-family: 'Lucida Sans', sans-serif;
+    }
+
+.red{
+    color: rgb(196, 31, 45);
+    font-size: 45px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+
+#pixelme {
+    display: flex;
+    justify-content: center;
+    }
+
+.animate{
+    animation: alternate-reverse;
+    flex-direction: row-reverse;
+}
+
+#smlogos {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#artwork {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.word1 {
+    font-size: 140px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(223, 95, 170);
+}
+
+.word2 {
+    font-size: 260px;
+    text-align: justify;
+    font-family: monospace;
+    color: rgb(192, 133, 65);
+}
+
+.word3 {
+    font-size: 280px;
+    text-align: justify;
+    font-family: inherit;
+    color: rgb(74, 158, 85);
+}
+
+.word4 {
+    font-size: 135px;
+    text-align: justify;
+    font-family:  'Segoe UI', sans-serif;
+    color: rgb(73, 129, 194);
+}
